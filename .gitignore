@@ -1,0 +1,11 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+
+# Data & models (large files)
+*.csv
+*.joblib
+
+# Figures
+*.png
