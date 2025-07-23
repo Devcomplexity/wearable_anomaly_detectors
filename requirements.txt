@@ -1,11 +1,3 @@
-bleak
-pandas
-numpy
-scipy
-scikit-learn
-joblib
-plyer
-streamlit
 fastapi
 uvicorn[standard]
 bleak
@@ -13,3 +5,4 @@ numpy
 pandas
 scipy
 joblib
+twilio
