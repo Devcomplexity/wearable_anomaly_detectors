@@ -1,0 +1,36 @@
+Wearable Activity & Fall Detection Monitor 
+A real-time activity recognition and fall-alert web dashboard powered by a BLE wearable and FastAPI.
+
+
+Team members 
+Dev
+Swaraj B.
+Kashvi Soni
+
+
+
+
+
+
+
+Prerequisites
+Python 3.8+
+
+BLE-enabled wearable streaming accelerometer (+ PPG/Spo₂ for full model)
+
+best_pipeline.pkl and label_encoder.pkl (or ACC-only artifacts) in the project root
+
+Quick Setup
+Clone and enter the repo
+
+bash
+git clone https://github.com/Devcomplexity/wearable_anomaly_detectors
+cd wearable_anomaly_detectors
+Install dependencies
+
+bash
+pip install -r requirements.txt
+Run the Web Monitor (change the MAC address to your BLE wearable device)
+bash
+uvicorn web_monitor:app --reload --host 0.0.0.0 --port 8000
+Open your browser at http://localhost:8000 to view live activity labels and fall alerts.
